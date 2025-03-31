@@ -24,7 +24,7 @@ Para determinar la potencia se realizaron diferentes iteraciones mediante el uso
 
 Ahora bien, para la compuerta compuesta con el inversor, se puede análizar utilizando el siguiente esquematico.
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/9a7aaa88-cd45-4575-936c-58a93a860ba8" width="500"/>
+    <img src="https://github.com/user-attachments/assets/994fcbe7-86ca-4c63-a6db-652f1591f74a" width="500"/>
 </p>
 
 A esta compuerta se le realizan los cálculos presentes en la sigueinte imagen, dando como resultado: 
@@ -32,7 +32,7 @@ A esta compuerta se le realizan los cálculos presentes en la sigueinte imagen, 
 $$D = 16.54 \tau$$ 
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/7632fd30-2667-4a1d-88e8-a36c6a9e1e75" width="500"/>
+    <img src="https://github.com/user-attachments/assets/b48206d8-ab6d-4c53-85b1-4deb3ede779c" width="500"/>
 </p>
 
 Por lo que se obtiene como resultado que los tamaños de los transistores de entrada tienen que sumar 30 lamda, dada una relación 2:1 se decide que los transistores N sean de tamaño 6 y los P de 24. Con respecto al inversor, los dos transistores deben de sumar 86 lamda, por lo que se decide que los P sean de tamaño 8 y los N de 4.
@@ -40,7 +40,7 @@ Por lo que se obtiene como resultado que los tamaños de los transistores de ent
 Para determinar la potencia consumida por la compuerta compuesta se realizó el mismo análisis, variando las entradas y en un periodo de tiempo de 10ns, dando el siguiente resultado:
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/3343c1e0-a316-438c-a3b2-ecf739491113" width="500"/>
+    <img src="https://github.com/user-attachments/assets/0546cb60-f514-405c-8e9e-58460b07ac8b" width="500"/>
 </p>
 
 
@@ -55,14 +55,14 @@ $$RC_{N} = \tau = 17.3 ps$$
 $$RC_{P} = \tau = 25.48 ps$$ 
 De aquí en adelante se asumirá el valor de tau anterior tanto para los transistores N como los P respectivamente.
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/923565bc-24c1-407c-b4af-da3a99a3ff13" width="500"/>
+    <img src="https://github.com/user-attachments/assets/cc33d02f-a413-41a1-88ff-a5adbaee1bdf" width="500"/>
 </p>
 
 
 Para el caso del tiempo de propagación de subida (tpdr), se estudia el caso en el que exite un transitor N activo, por lo que su capacitancia deberá ser cargada. Para este caso el resultado es de: $$20 \tau = 349ps$$ 
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/6c5f8b46-0377-487c-8ced-2f862fb0a312" width="500"/>
+    <img src="https://github.com/user-attachments/assets/ade220c4-c152-4193-99af-838def5075e9" width="500"/>
 </p>
 
 Para los casos de contaminación, se tienen los siguientes casos de estudio.
@@ -71,7 +71,7 @@ Para el tcdf, existen por lo menos 3 transistore N activos, reduciendo así la r
 $$ \frac{47}{4} * \tau = 203.23ps$$ 
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/8e8c6f78-3bf7-4754-bb51-7576debb0674" width="500"/>
+    <img src="https://github.com/user-attachments/assets/3d0687bf-deff-4bf4-bb52-aa5ae97d5581" width="500"/>
 </p>
 
 
@@ -80,12 +80,12 @@ El caso del tcdr, no existen transistores N activos, nuevamente reduciendo la re
 $$\frac{17}{2} * \tau = 146.2 ps$$ 
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/8cbf4cc0-ad32-4ca1-9c22-d667a243aa7e" width="500"/>
+    <img src="https://github.com/user-attachments/assets/ee88f419-2f5b-49ed-bd28-c158198f7bf7" width="500"/>
 </p>
 
 Seguidamente, se necesitan estudiar los tiempos de propagación y contaminación del inversor. Las capacitancias y resistencias presentes se puede observar en la siguiente figura:
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/884bd672-171c-4989-9816-79f61ea25e4f" width="500"/>
+    <img src="https://github.com/user-attachments/assets/68bfb5be-7e5a-4d12-82f1-bc0ec536c415" width="500"/>
 </p>
 
 Teniendo esta información, se pueden calcular los tiempos de subida como de bajada, pero en este caso no existe un peor o mejor caso, ya que si el transistores P está activo el N no lo está y viceversa. Esto da un resultado, y tomando en cuenta la capacitancia de carga presente, los tiempos de subida y bajada son los siguientes respectivamente:
@@ -95,7 +95,7 @@ $$76.44 ps$$
 $$51.6 ps$$ 
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/36b06cba-7659-42f4-89a4-7e525c197012" width="500"/>
+    <img src="https://github.com/user-attachments/assets/e3d2b0ee-42a4-4547-bdcd-f69cb27c59fb" width="500"/>
 </p>
 
 Ya obteniendo tanto los tiempos de la compuerta compuesta como los del inversor, se puede hacer una estimación del tiempo de retardo que se puede obtener tanto de subida y bajada en los mejores y peores casos, estos resultados son los siguientes:
@@ -112,7 +112,7 @@ $$tcdr = 146.2 $$
 Al analizar las compuertas simples, podemos determinar los tiempos de propagación y de contaminación tanto en la subida como en la bajada de la señal para la primera compuerta NOR.
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/9ba7a8b6-aaab-4631-84e8-16eaa4d2bc4e" width="500"/>
+    <img src="https://github.com/user-attachments/assets/e32a5360-613e-4b73-a1b0-12198448453f" width="500"/>
 </p>
 
 Debido a que está compuesto de 3 NOR, este análisis es el mismo para la compuerta que tiene como entrada C y D.
@@ -120,34 +120,34 @@ Debido a que está compuesto de 3 NOR, este análisis es el mismo para la compue
 Sin embargo, para la última NOR determinar estos tiempos es diferente, ya que vamos a depender de las dos compuertas anteriores, si se desea determinar los tiempos pero para la salida se debe de realizar de la siguiente manera. Suponiendo que A y B prima son las salidas de las primera dos compuertas.
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/9ceb8edb-0a8f-4b3d-ac50-f0ea1f6fe432" width="500"/>
+    <img src="https://github.com/user-attachments/assets/491f8855-2e6a-4cfd-85ef-b45f7b751bfb" width="500"/>
 </p>
 
 Al determinar el los tiempos de la ultima compuerta se puede analizar lo siguiente:
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/f58a16dd-08fe-4395-9f0a-ddab12dbd317" width="500"/>
+    <img src="https://github.com/user-attachments/assets/1bc61b86-daca-4efd-a99c-ae40320fd148" width="500"/>
 </p>
 Para un total de:
 
 $$435.04 ps $$
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/882970ca-baf4-4d0b-b77d-c3bf775c9f7c" width="500"/>
+    <img src="https://github.com/user-attachments/assets/e3e26512-16c4-4633-ae52-f7a6b408534f" width="500"/>
 </p>
 Sumando estos valores da:
 
 $$383.14 ps $$
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/04f0d9b2-c636-446d-a908-9555ab663a16" width="500"/>
+    <img src="https://github.com/user-attachments/assets/b5a097a3-fe05-4361-b7e9-b4733f40cd66" width="500"/>
 </p>
 Lo cual su suma da:
 
 $$298.96 ps $$
 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/7b9be5c0-2892-49c3-b164-1072187cfede" width="500"/>
+    <img src="https://github.com/user-attachments/assets/3b5eaca6-a2fa-487a-820a-0e3c46ee05c5" width="500"/>
 </p>
 Dando como resultado:
 
@@ -157,19 +157,19 @@ $$394.11 ps $$
 Para verificar la funcionalidad eléctrica y lógica de los esquemáticos propuestos como solución, se montaron los circuitos a nivel de transistores siguiendo los diseños proporcionados a nivel de compuertas. 
 Se realizaron mediciones de los tiempos para la compuerta compuesta y las simples una vez armados los circuitos. Antes de las mediciones, se verificó la correcta conexión de los componentes y se aseguró un suministro de energía adecuado. Dando como resultado los siguientes tiempos.
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/31cd64a2-3e5e-4547-941f-83252ba0ee81" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/a3026f4f-7a8c-4dea-b6ef-8decaf3e95a9" width="400" /><br>
+  <img src="https://github.com/user-attachments/assets/2456b8e4-bf74-4fad-a007-ba92966d01dd" width="400" />
+  <img src="https://github.com/user-attachments/assets/2803d318-d528-41f9-aa00-52541c4e3123" width="400" /><br>
     <em>Tiempos de propagación de la compuesta</em>
 </p>
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/5c2bdae2-096f-4d4a-aae8-8462133ff132" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/0b43a312-e2c5-48ca-8b68-da0d755e30b1" width="400" /><br>
+  <img src="https://github.com/user-attachments/assets/0b189970-1827-4aa8-b590-457240ed3330" width="400" />
+  <img src="https://github.com/user-attachments/assets/79c06728-d344-45be-b8e9-2533aa17d80b" width="400" /><br>
     <em>Tiempos de contaminación de la compuesta</em>
 </p>
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+  <img src="https://github.com/user-attachments/assets/f6f40392-64dd-4838-853e-42851cbabab8" width="500"  /><br>
      <em>Tiempos de propagación y contaminación de la compuerta simple</em>
 </p>
 
@@ -190,13 +190,13 @@ Dados estos resultados y los tiempos de retardo obtenidos con la teoría del esf
 Utilizando los caminos de Euler se determino que la mejor manera de realizar el diagrama de palitos para la compuesta queda de la siguiente manera:
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/38b8e662-bd3a-4278-8faa-18c39fa64ea0" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/700acf2d-a541-490d-aaed-427095f0041b" width="270" /><br>
+  <img src="https://github.com/user-attachments/assets/13b9719d-6bc2-4429-91f1-9e7d18d23249" width="400" />
+  <img src="https://github.com/user-attachments/assets/3a3aaf33-76b0-4e13-ba32-fe9fecf6d060" width="270" /><br>
 </p>
 
 Ahora bien, para la NOR como se sabe que las 3 compuertas van a ser relativamente iguales se determinó la mejor manera, dando como resultado: 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/b2bf00b5-8b88-4d3c-9430-292c6a9db2cf" width="200"/>
+    <img src="https://github.com/user-attachments/assets/a42c9b1f-84da-4db4-bbee-4a6c0b23e650" width="200"/>
 </p>
 
 ## Parte 5.
@@ -208,57 +208,57 @@ Una vez que las soluciones pasaron estas verificaciones sin errores, se crearon 
 
 Adicionalmente se agregaron las imagenes de las simulaciones de las compuertas, con sus tiempos respectivos.
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/4c7133d2-bca8-4f9a-a59f-befafdd3b4c4" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/edd113d4-0a30-43da-84f0-7c1c08c015c9" width="400" /><br>
+  <img src="https://github.com/user-attachments/assets/2416d6ae-f1a7-440d-8684-dcfbc8b86591" width="400" />
+  <img src="https://github.com/user-attachments/assets/0d832a62-4d54-43e7-b478-4b07759a8042" width="400" /><br>
     <em>Esquemático y post-trazado con parásitas de la compuerta compuesta</em>
 </p>
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/c0ae6b6e-0136-4dac-840e-6f78e1d1771d" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/0542c41a-9182-4b4b-9a28-8bef00380e99" width="250" /><br>
+  <img src="https://github.com/user-attachments/assets/5a143dc2-0dc2-40fd-8941-3bdafa903bb2" width="400" />
+  <img src="https://github.com/user-attachments/assets/f258ab53-f85d-4839-a7fc-711c308a696d" width="250" /><br>
     <em>Esquemático y post-trazado con parásitas del inversor</em>
 </p>
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/01592264-cc0d-40bf-aca1-25c9ca2710a5" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/cebc9ac9-f850-4dc6-8f69-93b3c7ed8d9c" width="400" /><br>
+  <img src="https://github.com/user-attachments/assets/579d6959-a615-4b2c-948f-351f07bad9d7" width="400" />
+  <img src="https://github.com/user-attachments/assets/25874ded-e092-424c-8659-711f5c1af8ed" width="400" /><br>
     <em>Tiempos de propagación con capacitancias parásitas </em>
 </p>
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/111e8102-8fd5-46d7-a299-cd6166221da8" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/2f57dc8b-b307-42ec-bc15-c616337b858b" width="400" /><br>
+  <img src="https://github.com/user-attachments/assets/09004777-89ac-4ce9-a2d0-df9b8341c928" width="400" />
+  <img src="https://github.com/user-attachments/assets/4b682371-4022-43b5-93fd-47a1cadaa796" width="400" /><br>
     <em>Tiempos de contaminación con capacitancias parásitas</em>
 </p>
 
 Ahora bien, editando el deck se realizó una medición del consumo de la compuerta compuesta, dando como resultado:
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/a3a52c46-df25-4613-b900-05a5c1b5c72d" width="500"/>
+    <img src="https://github.com/user-attachments/assets/80b952b1-d3a6-4a4b-9a74-c35c41ddbf5a" width="500"/>
 </p>
 
 ### Simple
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/1a12e0e8-600c-4fd6-94c1-2b3bae498846" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/fe5095bc-6fbd-40f6-b232-f93f95b2b663" width="400" /><br>
+  <img src="https://github.com/user-attachments/assets/8bf26ab7-bf77-440d-b435-9d225db57e85" width="400" />
+  <img src="https://github.com/user-attachments/assets/6ae7633a-ca82-4428-bf8a-3368ac601e8f" width="400" /><br>
     <em>Esquemático y post-trazado con parásitas de la compuerta NOR</em>
 </p>   
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/4975ae96-460b-45cb-8c8a-c85c4c4f1459" width="400" />
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/d5f82842-1560-4cf7-8a8c-46ff292ac707" width="400" /><br>
+  <img src="https://github.com/user-attachments/assets/91a97d59-03ee-4d80-a8c9-239fae83d905" width="400" />
+  <img src="https://github.com/user-attachments/assets/d1856f32-b99d-49f3-9645-da969d1d4ece" width="400" /><br>
     <em>Esquemático y post-trazado con parásitas de la compuerta NOR de salida</em>
 </p> 
 
 
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/975ba088-b4d8-4b97-accc-1d23bc4ce1b4" width="450"  /><br>
+  <img src="https://github.com/user-attachments/assets/8eca5896-dc74-4e64-bc9e-9c2277c9d9a5" width="450"  /><br>
      <em>Tiempos de propagación y contaminación de la compuerta simple con capacitancias parásitas</em>
 </p>
 
 Realiazando nuevamente una modificación en el deck se determinó la potencia consumida por la compuerta simple.
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/90399cca-15ed-4f4a-9685-35de695b29c4" width="500"/>
+    <img src="https://github.com/user-attachments/assets/2681e8ca-ddeb-4469-b211-3fbbf2ab5123" width="500"/>
 </p>
 
 Comparando los tiempos simulados con los esquematicos vs los tiempos de las compuertas con las capacitancias parásitas, lo podemos observar en la siguiente tabla.
