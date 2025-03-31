@@ -12,13 +12,13 @@ A continuación se exponen los resultados del análisis realizado utilizando la 
 
 $$D = 17.6 \tau$$ 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/e0fc2c18-4124-45b8-811f-d78d810d38d3" width="500"/>
+    <img src="https://github.com/user-attachments/assets/1ff51bdb-49c0-48f7-8d29-ececc76902b2" width="500"/>
 </p>
 Analizando los resultados de la capacitancia para la primera compuerta NOR, se utilizarán transistores con una relación de 2:1, resultando en un tamaño de 6 para el transistor N y 24 para el transistor P, esto debido a las características inherentes de la compuerta. Para la segunda compuerta NOR, los tamaños de los transistores quedaron en 98 para el transistor P y 24 para el transistor N.
 
 Para determinar la potencia se realizaron diferentes iteraciones mediante el uso de un deck, en el cual se fueron variando las entradas, dando como mayor consumo, en un periodo de 10ns, el siguiente resultado:
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110320407/b6262c16-9198-432a-ba3c-664a647fe14c" width="500"/>
+    <img src="https://github.com/user-attachments/assets/f2a05046-db41-4ea3-868e-594aad6b7fc2" width="500"/>
 </p>
 
 
