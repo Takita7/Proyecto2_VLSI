@@ -6,7 +6,7 @@ A continuación, se presentarán los estimados de retardo y consumo promedio de 
 Para implementar esta lógica, se utilizaron dos enfoques diferentes. En uno de ellos, se emplearon únicamente compuertas simples, mientras que en el otro se utilizó una compuerta compleja junto con un inversor. 
 La implementacion realizada con compuertas simple quedó de la siguiente manera: 
 <p align="center">
-    <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/bc585a32-ba6d-4422-b534-9c71cbfdbb13" width="500"/>
+    <img src="https://github.com/user-attachments/assets/ab7c24bc-7d95-4cd6-aa5a-26a5c51381e2" width="500"/>
 </p>
 A continuación se exponen los resultados del análisis realizado utilizando la compuerta mencionada anteriormente, dando como resultado:
 
